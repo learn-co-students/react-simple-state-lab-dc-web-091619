@@ -36,9 +36,10 @@ const defaultPattern = [
   ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
 ]
 
-let color = "#f00,"
-let row = color.repeat(10).split("#").slice(1,11)
-console.log(row)
+// let color = "#f00,"
+// let row = color.repeat(10).split("#").slice(1,11)
+// console.log(row)
+// takes too long
 
 Matrix.defaultProps = {
   values: defaultPattern
